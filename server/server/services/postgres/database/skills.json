@@ -1,0 +1,17 @@
+[
+  {
+    "jobId": 1,
+    "name": "HTML and CSS",
+    "level": "Intermediate"
+  },
+  {
+    "jobId": 1,
+    "name": "JavaScript",
+    "level": "Advanced"
+  },
+  {
+    "jobId": 1,
+    "name": "JavaScript Frameworks or Libraries",
+    "level": "Intermediate"
+  }
+]

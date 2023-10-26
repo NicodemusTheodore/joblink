@@ -1,0 +1,20 @@
+version: '3.1'
+services:
+  server-postgres:
+    build: ./services/postgres
+    container_name: postgres-server
+    ports:
+      - 4001:4001
+    environment:
+      - NODE_ENV=production
+      - DATABASE_URL=postgresql://postgres:ImtET694ZlsD66wa@db.frprajcuebsojcagmvho.supabase.co:5432/postgres
+  server-mongodb: 
+    build: ./services/mongodb
+    container_name: mongodb-server
+    ports:
+      - 4000:4000
+  orchestrator-graphql: 
+    build: ./orchestrator-graphql/
+    container_name: graphql-orchestrator
+    ports:
+      - 80:10000

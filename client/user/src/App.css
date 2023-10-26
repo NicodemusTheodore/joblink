@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+.logo-alias,
+.logo {
+  font-family: "Lobster", cursive;
+}
+
+.landing-page-img {
+  background: url("./assets/landing-page-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
